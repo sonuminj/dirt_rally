@@ -1,7 +1,75 @@
 @media (max-width:2560px) {
-    body{
-        background: #a47f7f;
+    .wheelf{
+        position: absolute;
+        max-width: 100%;
+        margin-top: -90px;
+        margin-left: 55px;
     }
+
+
+
+
+
+
+.ani{
+    animation-name: dfgdf;
+    animation-timing-function: linear;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+   }
+   @keyframes dfgdf{
+    from{
+        margin-left:0px;    
+    }
+    to{
+        margin-left:800px;    
+
+    }
+   }
+
+
+
+
+
+
+
+
+
+
+
+   .carr{
+    animation-name: carTy;
+    animation-timing-function: linear;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+   }
+   @keyframes carTy{
+    from{
+        margin-left:0px;    
+    }
+    to{
+        margin-left:800px;    
+
+    }
+   }
+   .wheelf{
+    animation-name: gght;
+    animation-timing-function: linear;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+   }
+   @keyframes gght{
+    from{
+        transform: rotate(0deg);  
+    }
+    to{
+        transform: rotate(350deg);   
+
+    }
+   }
+
+   
+
     .navbar-brand{
         width: 8%;
     }
