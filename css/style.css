@@ -1,4 +1,7 @@
 @media (max-width:2560px) {
+    body{
+        background: #a47f7f;
+    }
     .navbar-brand{
         width: 8%;
     }
